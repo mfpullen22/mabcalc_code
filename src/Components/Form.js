@@ -5,7 +5,7 @@ import Result from "./Result";
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
-import FormLabel from '@mui/material/FormLabel';
+//import FormLabel from '@mui/material/FormLabel';
 import Switch, { SwitchProps } from '@mui/material/Switch';
 
 function CalculationForm() {
@@ -17,6 +17,8 @@ function CalculationForm() {
     const [respChecked, setRespChecked] = useState(false);
     const [htnChecked, setHtnChecked] = useState(false);
     const [immChecked, setImmChecked] = useState(false);
+    const [bipocChecked, setBipocChecked] = useState(false);
+    const [pregChecked, setPregChecked] = useState(false);
     let [prob, setProb] = useState(0);
 
 
@@ -81,7 +83,19 @@ function CalculationForm() {
 
     function immChange(event){
         setImmChecked(event.target.checked);
+        setProb(scoreAdd(5, event.target.checked));
+        console.log(event.target.checked);
+    }
+
+    function bipocChange(event){
+        setBipocChecked(event.target.checked);
         setProb(scoreAdd(3, event.target.checked));
+        console.log(event.target.checked);
+    }
+
+    function pregChange(event){
+        setPregChecked(event.target.checked);
+        setProb(scoreAdd(4, event.target.checked));
         console.log(event.target.checked);
     }
     
@@ -130,7 +144,17 @@ function CalculationForm() {
                     control={<Switch color="primary" checked={immChecked} onChange={immChange} />}
                     label="Immunocompromised status"
                     labelPlacement="end"
-                />       
+                />     
+                <FormControlLabel
+                    control={<Switch color="primary" checked={bipocChecked} onChange={bipocChange} />}
+                    label="Black, Indigenous, or Person of Color"
+                    labelPlacement="end"
+                />  
+                <FormControlLabel
+                    control={<Switch color="primary" checked={pregChecked} onChange={pregChange} />}
+                    label="Pregnant"
+                    labelPlacement="end"
+                />    
                 </FormGroup>
             </FormControl>
             </form>

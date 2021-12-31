@@ -1,6 +1,7 @@
 import './App.css';
 import Card from "./UI/Card";
 import CalculationForm from "./Components/Form";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
       </Card>
       <Card>
         <CalculationForm />
+      </Card>
+      <Card>
+        <Footer />
       </Card>
 
     </div>

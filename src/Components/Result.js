@@ -3,11 +3,11 @@ import React from "react";
 function Result(props) {
     let prob = props.prob;
 
-   if (prob == 0) {
+   if (prob === 0) {
         return (
             <div>
-                <h4>Risk of hospitalization:</h4>
-                <p>Monocloncal Antibody Therapy: 1.7%</p>
+                <h4>Risk of hospitalization ({prob} risk points):</h4>
+                <p>With Monocloncal Antibody: 1.7%</p>
                 <p>No Treatment: 2.1%</p>
                 <br />
                 <h4>Detailed Statistics:</h4>
@@ -17,11 +17,11 @@ function Result(props) {
                 <p>NNT: 255</p>
             </div>
         );
-    } else if (prob == 1) {
+    } else if (prob === 1) {
         return (
             <div>
-                <h4>Risk of hospitalization:</h4>
-                <p>After Monocloncal Antibody: 0%</p>
+                <h4>Risk of hospitalization ({prob} risk points):</h4>
+                <p>With Monocloncal Antibody: 0%</p>
                 <p>No Treatment: 2.3%</p>
                 <br />
                 <h4>Detailed Statistics:</h4>
@@ -31,11 +31,11 @@ function Result(props) {
                 <p>NNT: 43</p>
             </div>
         );
-    } else if (prob == 2) {
+    } else if (prob === 2) {
         return (
             <div>
-                <h4>Risk of hospitalization:</h4>
-                <p>After Monocloncal Antibody: 2%</p>
+                <h4>Risk of hospitalization ({prob} risk points):</h4>
+                <p>With Monocloncal Antibody: 2%</p>
                 <p>No Treatment: 6.7%</p>
                 <br />
                 <h4>Detailed Statistics:</h4>
@@ -45,11 +45,11 @@ function Result(props) {
                 <p>NNT: 22</p>
             </div>
         );
-    } else if (prob == 3) {
+    } else if (prob === 3) {
         return (
             <div>
-                <h4>Risk of hospitalization:</h4>
-                <p>After Monocloncal Antibody: 3.2%</p>
+                <h4>Risk of hospitalization ({prob} risk points):</h4>
+                <p>With Monocloncal Antibody: 3.2%</p>
                 <p>No Treatment: 12.3%</p>
                 <br />
                 <h4>Detailed Statistics:</h4>
@@ -59,11 +59,11 @@ function Result(props) {
                 <p>NNT: 12</p>
             </div>
         );
-    } else if (prob == 4) {
+    } else if (prob === 4) {
         return (
             <div>
-                <h4>Risk of hospitalization:</h4>
-                <p>After Monocloncal Antibody: 0%</p>
+                <h4>Risk of hospitalization ({prob} risk points):</h4>
+                <p>With Monocloncal Antibody: 0%</p>
                 <p>No Treatment: 15.1%</p>
                 <br />
                 <h4>Detailed Statistics:</h4>
@@ -73,11 +73,11 @@ function Result(props) {
                 <p>NNT: 7</p>
             </div>
         );
-    } else if (prob == 5) {
+    } else if (prob === 5) {
         return (
             <div>
-                <h4>Risk of hospitalization:</h4>
-                <p>After Monocloncal Antibody: 4.8%</p>
+                <h4>Risk of hospitalization ({prob} risk points):</h4>
+                <p>With Monocloncal Antibody: 4.8%</p>
                 <p>No Treatment: 29.2%</p>
                 <br />
                 <h4>Detailed Statistics:</h4>
@@ -87,11 +87,11 @@ function Result(props) {
                 <p>NNT: 5</p>
             </div>
         );
-    } else if (prob == 6) {
+    } else if (prob === 6) {
         return (
             <div>
-                <h4>Risk of hospitalization:</h4>
-                <p>After Monocloncal Antibody: 5.4%</p>
+                <h4>Risk of hospitalization ({prob} risk points):</h4>
+                <p>With Monocloncal Antibody: 5.4%</p>
                 <p>No Treatment: 19%</p>
                 <br />
                 <h4>Detailed Statistics:</h4>
@@ -101,11 +101,11 @@ function Result(props) {
                 <p>NNT: 8</p>
             </div>
         );
-    } else if (prob == 7) {
+    } else if (prob === 7) {
         return (
             <div>
-                <h4>Risk of hospitalization:</h4>
-                <p>After Monocloncal Antibody: 7.6%</p>
+                <h4>Risk of hospitalization ({prob} risk points):</h4>
+                <p>With Monocloncal Antibody: 7.6%</p>
                 <p>No Treatment: 35.3%</p>
                 <br />
                 <h4>Detailed Statistics:</h4>
@@ -118,8 +118,8 @@ function Result(props) {
     } else if (prob >= 8) {
         return (
             <div>
-                <h4>Risk of hospitalization:</h4>
-                <p>After Monocloncal Antibody: 4.6%</p>
+                <h4>Risk of hospitalization (≥8 risk points):</h4>
+                <p>With Monocloncal Antibody: 4.6%</p>
                 <p>No Treatment: 45.6%</p>
                 <br />
                 <h4>Detailed Statistics:</h4>
