@@ -4,3 +4,12 @@
     margin-bottom: 1rem;
     text-align: left;
   }
+
+div.references {
+    text-align: left;
+}
+
+img.logo {
+    width:50%;
+    height:25%;
+}
