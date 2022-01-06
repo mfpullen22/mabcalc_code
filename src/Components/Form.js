@@ -24,7 +24,7 @@ function CalculationForm() {
 
     function scoreAdd(val, trigger) {
         
-        if(trigger == true) {
+        if(trigger === true) {
             prob = prob + val;
         } else {
             prob = prob - val;
@@ -42,7 +42,7 @@ function CalculationForm() {
 
     function weightChange(event){
         setWeightChecked(event.target.checked);
-        setProb(scoreAdd(1, event.target.checked));
+        setProb(scoreAdd(2, event.target.checked));
         console.log(prob);
     }
 
@@ -69,7 +69,7 @@ function CalculationForm() {
 
     function respChange(event){
         setRespChecked(event.target.checked);
-        setProb(scoreAdd(2, event.target.checked));
+        setProb(scoreAdd(3, event.target.checked));
         console.log(event.target.checked);
         console.log(prob);
     }
@@ -83,13 +83,13 @@ function CalculationForm() {
 
     function immChange(event){
         setImmChecked(event.target.checked);
-        setProb(scoreAdd(5, event.target.checked));
+        setProb(scoreAdd(4, event.target.checked));
         console.log(event.target.checked);
     }
 
     function bipocChange(event){
         setBipocChecked(event.target.checked);
-        setProb(scoreAdd(3, event.target.checked));
+        setProb(scoreAdd(2, event.target.checked));
         console.log(event.target.checked);
     }
 
