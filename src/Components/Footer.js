@@ -13,6 +13,7 @@ function Footer() {
                 <p><strong>Supporting Literature:</strong>
                 <br />
                 Bierle DM, Ganesh R, Tulledge-Scheitel S, Hanson SN, Arndt LL, Wilker CG, Razonable RR. Monoclonal Antibody Treatment of Breakthrough COVID-19 in Fully Vaccinated Individuals with High-Risk Comorbidities. J Infect Dis. 2021 Nov 16:jiab570. <a href="https://doi.org/10.1093/infdis/jiab570">https://doi.org/10.1093/infdis/jiab570</a>
+                <br />
                 </p>
             </div>
             <br />
