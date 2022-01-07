@@ -129,17 +129,17 @@ function CalculationForm() {
                 /> 
                 <FormControlLabel
                     control={<Switch color="primary" checked={cvdChecked} onChange={cvdChange}/>}
-                    label="Cardiovascular disease in a patient ≥ 55 years"
+                    label="Cardiovascular disease in a ≥ 55 year old"
                     labelPlacement="end"
                 /> 
                 <FormControlLabel
                     control={<Switch color="primary" checked={respChecked} onChange={respChange}/>}
-                    label="Chronic respiratory disease in a patient ≥ 55 years"
+                    label="Chronic respiratory disease in a ≥ 55 year old"
                     labelPlacement="end"
                 /> 
                 <FormControlLabel
                     control={<Switch color="primary" checked={htnChecked} onChange={htnChange}/>}
-                    label="Hypertension in a patient ≥ 55 years"
+                    label="Hypertension in a ≥ 55 year old"
                     labelPlacement="end"
                 /> 
                 <FormControlLabel
