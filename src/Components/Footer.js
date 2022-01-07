@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import covidout from "../images/covidout.png";
+import mdhlogo from "../images/mdh_logo.png";
 
 function Footer() {
     return (
@@ -23,6 +24,7 @@ function Footer() {
             </div>
             <br />
             <br />
+            <img src={mdhlogo} alt="MDH Logo" className = "logo" />
             <p>Site created by <a href="https://med.umn.edu/bio/idim-faculty/matthew-pullen">Matthew Pullen MD</a></p>
         
         </div>

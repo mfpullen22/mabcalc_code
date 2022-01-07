@@ -101,9 +101,11 @@ function CalculationForm() {
     
     return (
         <div>
-            <form>
+            <p>This calculator was developed by the University of Minnesota in partnership with Mayo Clinic and the Minnesota Department of Health to help providers assess patient risk factors and need for COVID-19 monoclonal antibody therapy.</p>
+            <form >
             <FormControl component="fieldset">
                 <h2>Patient Risk Factors:</h2>
+                
                 <FormGroup aria-label="position" column>
                 <FormControlLabel
                     control={<Switch color="primary" checked={ageChecked} onChange={ageChange}/>}

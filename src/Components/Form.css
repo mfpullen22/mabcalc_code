@@ -31,3 +31,7 @@
   .form__actions {
     text-align: right;
   } 
+
+  .calctext {
+    width: 50%;
+  }
