@@ -11,7 +11,7 @@ function Result(props) {
                 <p>No Treatment: 2.1%</p>
                 <br />
                 <h4>Detailed Statistics:</h4>
-                <p>Relative risk: 0.813</p>
+                <p>Relative Risk: 0.813</p>
                 <p>Odds Ratio [95% CI]: 0.809 [0.173 - 3.800]</p>
                 <p>Absolute Risk Reduction: 4%</p>
                 <p>NNT: 255</p>
@@ -25,7 +25,7 @@ function Result(props) {
                 <p>No Treatment: 2.3%</p>
                 <br />
                 <h4>Detailed Statistics:</h4>
-                <p>Relative risk: 0.0</p>
+                <p>Relative Risk: 0.0</p>
                 <p>Odds Ratio [95% CI]: 0.202 [0.010 - 4.200]</p>
                 <p>Absolute Risk Reduction: 2.3%</p>
                 <p>NNT: 43</p>
@@ -39,7 +39,7 @@ function Result(props) {
                 <p>No Treatment: 6.7%</p>
                 <br />
                 <h4>Detailed Statistics:</h4>
-                <p>Relative risk: 0.306</p>
+                <p>Relative Risk: 0.306</p>
                 <p>Odds Ratio [95% CI]: 0.292 [0.032 - 2.700]</p>
                 <p>Absolute Risk Reduction: 4.6%</p>
                 <p>NNT: 22</p>
@@ -53,7 +53,7 @@ function Result(props) {
                 <p>No Treatment: 12.3%</p>
                 <br />
                 <h4>Detailed Statistics:</h4>
-                <p>Relative risk: 0.266</p>
+                <p>Relative Risk: 0.266</p>
                 <p>Odds Ratio [95% CI]: 0.241 [0.060 - 0.973]</p>
                 <p>Absolute Risk Reduction: 9%</p>
                 <p>NNT: 12</p>
@@ -67,7 +67,7 @@ function Result(props) {
                 <p>No Treatment: 15.1%</p>
                 <br />
                 <h4>Detailed Statistics:</h4>
-                <p>Relative risk: 0.0</p>
+                <p>Relative Risk: 0.0</p>
                 <p>Odds Ratio [95% CI]: 0.068 [0.125 - 0.028]</p>
                 <p>Absolute Risk Reduction: 15.1%</p>
                 <p>NNT: 7</p>
@@ -81,7 +81,7 @@ function Result(props) {
                 <p>No Treatment: 29.2%</p>
                 <br />
                 <h4>Detailed Statistics:</h4>
-                <p>Relative risk: 0.167</p>
+                <p>Relative Risk: 0.167</p>
                 <p>Odds Ratio [95% CI]: 0.125 [0.243 - 0.040]</p>
                 <p>Absolute Risk Reduction: 24.3%</p>
                 <p>NNT: 5</p>
@@ -95,7 +95,7 @@ function Result(props) {
                 <p>No Treatment: 19%</p>
                 <br />
                 <h4>Detailed Statistics:</h4>
-                <p>Relative risk: 0.284</p>
+                <p>Relative Risk: 0.284</p>
                 <p>Odds Ratio [95% CI]: 0.243 [0.152 - 0.031]</p>
                 <p>Absolute Risk Reduction: 13.5%</p>
                 <p>NNT: 8</p>
@@ -109,7 +109,7 @@ function Result(props) {
                 <p>No Treatment: 35.3%</p>
                 <br />
                 <h4>Detailed Statistics:</h4>
-                <p>Relative risk: 0.218</p>
+                <p>Relative Risk: 0.218</p>
                 <p>Odds Ratio [95% CI]: 0.153 [0.058 - 0.128]</p>
                 <p>Absolute Risk Reduction: 27.6%</p>
                 <p>NNT: 4</p>
@@ -123,7 +123,7 @@ function Result(props) {
                 <p>No Treatment: 45.6%</p>
                 <br />
                 <h4>Detailed Statistics:</h4>
-                <p>Relative risk: 0.102</p>
+                <p>Relative Risk: 0.102</p>
                 <p>Odds Ratio [95% CI]: 0.058 [0.013 - 0.264]</p>
                 <p>Absolute Risk Reduction: 40.9%</p>
                 <p>NNT: 3</p>
