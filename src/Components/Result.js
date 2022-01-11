@@ -3,7 +3,13 @@ import React from "react";
 function Result(props) {
     let prob = props.prob;
 
-   if (prob === 0) {
+    return (
+        <div>
+            <h4>Risk points: {prob}</h4>
+            <p>More detailed statistics forthcoming after new data analysis, check back soon.</p>
+        </div>
+    )
+   /* if (prob === 0) {
         return (
             <div>
                 <h4>Risk of hospitalization ({prob} risk points):</h4>
@@ -129,7 +135,7 @@ function Result(props) {
                 <p>NNT: 3</p>
             </div>
         );
-    }
+    } */
 };
 
 export default Result;
