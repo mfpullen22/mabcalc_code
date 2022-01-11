@@ -6,7 +6,6 @@ function Result(props) {
     return (
         <div>
             <h4>Risk points: {prob}</h4>
-            <p>More detailed statistics forthcoming after new data analysis, check back soon.</p>
         </div>
     )
    /* if (prob === 0) {
