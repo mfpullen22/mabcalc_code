@@ -1,12 +1,12 @@
 import "./Form.css";
 import {useState} from "react";
-import React, { Component } from 'react';
+import React from 'react';
 import Result from "./Result";
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 //import FormLabel from '@mui/material/FormLabel';
-import Switch, { SwitchProps } from '@mui/material/Switch';
+import Switch from '@mui/material/Switch';
 
 function CalculationForm() {
     const [ageChecked, setAgeChecked] = useState(false);
@@ -17,8 +17,8 @@ function CalculationForm() {
     const [respChecked, setRespChecked] = useState(false);
     const [htnChecked, setHtnChecked] = useState(false);
     const [immChecked, setImmChecked] = useState(false);
-    const [bipocChecked, setBipocChecked] = useState(false);
-    const [pregChecked, setPregChecked] = useState(false);
+/*     const [bipocChecked, setBipocChecked] = useState(false);
+    const [pregChecked, setPregChecked] = useState(false); */
     let [prob, setProb] = useState(0);
 
 
@@ -87,7 +87,7 @@ function CalculationForm() {
         console.log(event.target.checked);
     }
 
-    function bipocChange(event){
+/*     function bipocChange(event){
         setBipocChecked(event.target.checked);
         setProb(scoreAdd(2, event.target.checked));
         console.log(event.target.checked);
@@ -97,11 +97,11 @@ function CalculationForm() {
         setPregChecked(event.target.checked);
         setProb(scoreAdd(4, event.target.checked));
         console.log(event.target.checked);
-    }
+    } */
     
     return (
         <div>
-            <p>This calculator was developed by the University of Minnesota in partnership with Mayo Clinic and the Minnesota Department of Health to help providers assess patient risk factors and need for COVID-19 monoclonal antibody therapy.</p>
+            <p>This calculator was developed by the University of Minnesota in collaboration with Mayo Clinic and the Minnesota Department of Health to help providers assess patient risk factors and need for COVID-19 monoclonal antibody therapy.</p>
             <form >
             <FormControl component="fieldset">
                 <h2>Patient Risk Factors:</h2>
@@ -147,7 +147,7 @@ function CalculationForm() {
                     label="Immunocompromised status"
                     labelPlacement="end"
                 />     
-                <FormControlLabel
+{/*                 <FormControlLabel
                     control={<Switch color="primary" checked={bipocChecked} onChange={bipocChange} />}
                     label="Black, Indigenous, or Person of Color"
                     labelPlacement="end"
@@ -156,7 +156,7 @@ function CalculationForm() {
                     control={<Switch color="primary" checked={pregChecked} onChange={pregChange} />}
                     label="Pregnant"
                     labelPlacement="end"
-                />    
+                />    */} 
                 </FormGroup>
             </FormControl>
             </form>

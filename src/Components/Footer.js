@@ -1,8 +1,6 @@
 import React from "react";
 import "./Footer.css";
 import covidout from "../images/covidout.png";
-import umnlogo from "../images/umn_logo.png";
-import mdhlogo2 from "../images/mdh_logo2.png";
 import logos from "../images/logos.png";
 
 function Footer() {
@@ -26,9 +24,7 @@ function Footer() {
             </div>
             <br />
             <br />
-            
-                <img src={logos} alt="MDH Logo" className = "logo" />
-            
+            <img src={logos} alt="MDH Logo" className = "logo" />    
             <br />
             <br />
             <p>Site created by <a href="https://med.umn.edu/bio/idim-faculty/matthew-pullen">Matthew Pullen MD</a></p>
