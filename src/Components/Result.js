@@ -6,6 +6,9 @@ function Result(props) {
     return (
         <div>
             <h4>Risk points: {prob}</h4>
+            <div>
+                <p>For more information on how risk factors are used in Minnesota to allocate scarce resources, please see <a href="https://www.health.state.mn.us/diseases/coronavirus/hcp/mabethical.pdf">Ethical Framework for Allocation of Monoclonal Antibodies during the COVID-19 Pandemic</a></p>
+            </div>
         </div>
     )
    /* if (prob === 0) {
