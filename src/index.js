@@ -1,5 +1,6 @@
 import 'core-js/es/map';
 import 'core-js/es/set';
+import "core-js/es/weak-map";
 import 'react-app-polyfill/ie9'
 import React from 'react';
 import ReactDOM from 'react-dom';
